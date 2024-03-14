@@ -1,0 +1,170 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FCEBB6;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    background-image: url(img/background.gif);
+}
+
+main{
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:200px;
+    padding-top:0px;
+    background-color:#FEF6C2;
+    display:block;
+}
+
+#wrapper{
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#231814;
+    min-width:900px;
+    max-width:1280px;
+    box-shadow:3px 3px 3px #333333;
+}
+
+#floatleft{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.detalis{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+#heroroad{
+    background-image: url(/img/heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heroguitar{
+    background-image: url(/img/heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heromugs{
+    background-image: url(/img/heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+header{
+    height: 150px;
+    background-image: url(img/javajamcoffee.jpg);
+    background-repeat: no-repeat;
+    background-color: #D2B48C;
+    display: block;
+}
+
+footer{
+    background-color:#D2B48c;
+    font-size: .60em;
+    font-style: italic;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-top:solid 2px;
+    color:#221811;
+    display:block;
+
+}
+
+text{
+    color: #221811;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl{
+    padding-left:3em;
+    padding-right:2em;
+}
+
+
+h1{
+    padding-top:45px;
+    padding-left:220px;
+    font-size:3em;
+}
+
+h4{
+    background-color:#D2B48C;
+    font-size:1.2em;
+    padding-left:0.5em;
+    padding-bottom:0.25em;
+    text-transform:uppercase;
+    border-bottom:2px solid #231814;
+    clear:left;
+}
+
+
+img{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+nav{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    display: block;
+}
+
+audio { display: block; margin-top: 1em; }
+
+form { padding: 2em; }
+
+label { float: left;
+		display: block; 
+		text-align: right;
+		width: 8em;
+		padding-right: 1em;
+		clear: left; }
+
+input, textarea { display: block; margin-bottom: 1em; }
+
+#table{
+    width: 90%; 
+	background-color:#FFFFCC;
+	border-spacing: 0px;
+    margin: auto;
+}
+
+td{ 
+    padding: 10px;
+}
+
+th{ 
+    padding: 10px;
+}
+
+tr:nth-of-type(1){
+    background-color: #D2B48E;
+}
+
+tr:nth-of-type(3){
+    background-color: #D2B48E;
+}
+
+nav ul{
+    padding:0px;
+	display:block;
+    list-style-type: none;
+	
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: #FEF6C2;
+}
+nav a:visited{
+    color: #D2B48C;
+}
+nav a:hover{
+    color: #CC9933;
+}
